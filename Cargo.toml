@@ -2,7 +2,7 @@
 name = "git-switch-user"
 version = "1.1.1"
 authors = ["Carlos Quintana <carlos@cquintana.dev>"]
-edition = "2018"
+edition = "2021"
 description = "Manage your git identities with ease"
 documentation = "https://github.com/cquintana92/git-switch-user"
 homepage = "https://github.com/cquintana92/git-switch-user"
@@ -14,10 +14,10 @@ categories = ["command-line-utilities"]
 [dependencies]
 anyhow = "1.0"
 clap = "2.33"
-env_logger = "0.8.1"
+env_logger = "0.10.0"
 log = "0.4.11"
 git-version = "0.3.4"
-prettytable-rs = "0.8.0"
+prettytable-rs = "0.10.0"
 serde = { version = "1", features = ["derive"] }
-toml = "0.5.7"
+toml = "0.7.3"
 xdg = "2.2.0"
